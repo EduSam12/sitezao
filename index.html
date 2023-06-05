@@ -13,12 +13,15 @@
 
 
     <ul class="lista">
-        <li class="cabecalho-lista-item"><a href="#projeto>">Projeto</li>
+ <li class="cabecalho-lista-item"><a href="#projeto>">Projeto</li>
         <div class="lista-item"><a href= "#equipe"> Equipe</div>
-    <a href="programaçao.html">Programação</a>
-    <a href="Robotica.html">Robotica</a>
-    <a href="Biotecnologia.html">Biotecnologia</a>
-    <a href="Empreendedorismo.html">Empreendedorismo</a>
+   <li><a href="programaçao.html">Programação</a></li>
+   <li><a href="Robotica.html">Robotica</a></li>
+   <li><a href="Biotecnologia.html">Biotecnologia</a></li>
+   <li><a href="Empreendedorismo.html">Empreendedorismo</a></li>
+   <input type="search" class="search-pesquisa" placeholder="Pesquisa">
+
+
     </ul>   
 </header>
 
@@ -47,7 +50,6 @@
     </div>
 
     <div class="estudante-div">
-
         <img class="estudante-imagem" src="./EROS.jpg" alt="Eros">
         <h3 class="estudante-nome">Eros</h3>
 
@@ -85,11 +87,34 @@
 </div>
 
 </section>
+<form class="formulario" method="post" action="https://formspree.io/f/xvonjrye">
+    <p class="contato__texto"> Em caso de dúvidas, envie uma mensagem preenchendo o formulário abaixo.</p>
+    <div class="lado">
+        <div class="lado_1">
+            <div class="field">
+                <label for="nome" class="contato__texto">Seu nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required="">
+            </div>
 
-<footer class="rodape">
-    <img class="rodape-imagem" src="logonova.png" alt="logo do Colégio">
-
+            <div class="field">
+                <label for="email" class="contato__texto">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required="">
+            </div>
+        </div>
+        <div class="field">
+            <div class="lado_2">
+            <label for="mensagem" class="contato__texto">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required="" class="mensagem"></textarea>
+        </div>
+        </div>
+    </div>
+    <input type="submit" name="acao" value="Enviar">
+</form>
+<footer class="roda-pé">
+    <div class="meio">
+        <img class="rodape-imagem" src="logonova.png" alt="logo do Colégio"></footer>
+    </div>
 </footer>
-
+        
 </body>
 </html>
